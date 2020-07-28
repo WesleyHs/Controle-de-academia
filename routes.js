@@ -8,7 +8,7 @@ routes.get('/', function(req, res){
 })
 
 routes.get('/instructors', function(req, res){
-    return res.send("instructors")
+    return res.render("instructors/index")
 })
 
 routes.get('/members', function(req, res){
